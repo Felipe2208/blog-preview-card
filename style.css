@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    margin: 0;
+    background-color: #f6d050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Figtree', sans-serif;
+}
+
+.box {
+    background-color: #fff;
+    height: 620px;
+    width: 450px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px 0px #000;
+}
+
+.image {
+    height: auto;
+    width: 400px;
+    margin: 25px 25px 0 25px;
+    border-radius: 15px;
+}
+
+.learning {
+    background-color: #f6d050;
+    display: inline-block;
+    padding: 10px 15px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.day {
+    color: #000;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.title {
+    color: #000;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.paragraph {
+    color: #0000007e;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+
+.credits {
+    display: flex;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.name {
+    font-size: 16px;
+    margin-left: 12px;
+    margin-top: 35px;
+    font-weight: 800;
+}
